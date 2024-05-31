@@ -1,0 +1,101 @@
+#register-container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 932px;
+    background-image: url('../assets/background.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.app-name{
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    font-size:96px;
+    color: #FFD600;
+    text-shadow:
+            -3px -3px 0 black,
+            /* Górny lewy */
+            3px -3px 0 black,
+            /* Górny prawy */
+            -3px 3px 0 black,
+            /* Dolny lewy */
+            3px 3px 0 black;
+        /* Dolny prawy */
+}
+
+.sign-up-text{
+        border: none;
+            cursor: pointer;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 50px;
+            color: #FFD600;
+            text-shadow:
+                -3px -3px 0 black,
+                /* Górny lewy */
+                3px -3px 0 black,
+                /* Górny prawy */
+                -3px 3px 0 black,
+                /* Dolny lewy */
+                3px 3px 0 black;
+            /* Dolny prawy */
+}
+
+.register-form{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 400px;
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+
+.form-div{
+    width:327px ;
+}
+
+input[type=text],input[type=password],input[type=email]{
+    padding: 15px 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+.label-register-form{
+    font-size: 14px;
+    color: white;
+}
+
+button{
+    width:327px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FFD600;
+}
+
+.take-me-to-login{
+    background-color: rgba(0, 0, 0, 0.55);
+    color: #FFD600;
+}
+
+.checkbox-input{
+    width: 20px;
+    height: 15px;
+    margin-right: 10px;
+}

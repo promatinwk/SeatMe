@@ -1,0 +1,66 @@
+#restaurant-detail{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Inter', sans-serif;
+}
+
+.rate-me{
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    font-size:50px;
+    background-color: white;
+    color: #FFD600;
+    text-shadow:
+            -3px -3px 0 black,
+            /* Górny lewy */
+            3px -3px 0 black,
+            /* Górny prawy */
+            -3px 3px 0 black,
+            /* Dolny lewy */
+            3px 3px 0 black;
+        /* Dolny prawy */
+}
+
+#restaurant-opinions{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.single-opinion{
+    margin-bottom: 10px;
+}
+.thisOpinion-ratings{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 5px;
+
+}
+
+.rate-me-stars-img{
+    width: 206px;
+    height: 57px;
+    margin-left: 60px;
+}
+
+#rate-me-btn-div{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hidden{
+    display: none;
+    visibility: hidden;
+}

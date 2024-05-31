@@ -1,0 +1,46 @@
+nav {
+    height: 134px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    background-color: #EAC60C;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.hamburger-menu{
+    width: 52px;
+    height: 52px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #EAC60C;
+}
+
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+}
+
+.navbar-right {
+   padding-right: 3%;
+
+}
+
+.main-menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu-link{
+    padding: 0;
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-around;
+
+}
